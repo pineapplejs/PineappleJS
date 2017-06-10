@@ -1,0 +1,29 @@
+{
+  "name": "pineapplejs",
+  "version": "0.0.0",
+  "description": "Easy to use NodeJS Web application framework.",
+  "main": "lib/Pineapple.js",
+  "scripts": {
+    "test": "echo Infinity"
+  },
+  "keywords": [
+    "Web",
+    "App",
+    "Webapp",
+    "WebApplication",
+    "Application"
+  ],
+  "author": "Shani Dahan",
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pineapplejs/PineappleJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pineapplejs/PineappleJS/issues"
+  },
+  "homepage": "https://github.com/pineapplejs/PineappleJS#readme"
+}
