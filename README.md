@@ -6,6 +6,12 @@ Easy to use yet complex NodeJS Web application framework.
 
 [Docs](./docs/README.md)
 
+Install:
+
+```
+npm install pineapplejs
+```
+
 All contributions are welcome.
 
 PineappleJS is licensed under the MIT license.
