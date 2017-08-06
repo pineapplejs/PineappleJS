@@ -1,10 +1,10 @@
 {
   "name": "pineapplejs",
-  "version": "0.0.0",
-  "description": "Easy to use NodeJS Web application framework.",
-  "main": "lib/Pineapple.js",
+  "version": "0.0.1",
+  "description": "Easy to use yet complex NodeJS Web application framework.",
+  "main": "./lib/Pineapple.js",
   "scripts": {
-    "test": "echo Infinity"
+    "test": "node tests/TEST1/server.js"
   },
   "keywords": [
     "Web",

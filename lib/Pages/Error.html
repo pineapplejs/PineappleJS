@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTTP Error #{{code}}</title>
+		<style>
+			.page{
+				position:relative;
+			}
+			#Error{
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%,175%);
+			}
+			hr{
+				display:block;
+				background-color:white;
+				-webkit-transition:width 500ms ease-out;
+				transition:width 500ms ease-out;
+				width:0px;
+				opacity:0;
+			}
+			.grow{
+				opacity:1;
+				width:350px !important;
+			}
+			*{
+				background-color:deeppink;
+				color:white;
+				font-family:monospace;
+			}
+		</style>
+	</head>
+	<body>
+		<center class="page">
+			<div id="Error">
+				<h1>HTTP Error #{{code}}</h1>
+				<hr/>
+				<h2>{{message}}</h2>
+				<br/>
+				<p></p>
+				<h3><i>Powered by PineappleJS#v<code>{{version}}</code></i></h3>
+			</div>
+		</center>
+		<script>
+			setTimeout(function(){
+				document.getElementsByTagName("hr")[0].className="grow";
+			},1);
+		</script>
+	</body>
+</html>
