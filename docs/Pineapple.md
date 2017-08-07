@@ -190,14 +190,15 @@ It takes the following arguments:
 ### set
 The `set` method changes the App config. The app config has the following properties:
 
-| property       | description                                                                                                                                                                  | default value   |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| port           | The port for the http server to listen                                                                                                                                       | `80`            |
-| https_port     | The port for the https server to listen                                                                                                                                      | `443`           |
-| auto_https     | When true and https is available, automatically redirects http to https                                                                                                      | `true`          |
-| enable_HEAD    | When true, every request sent using the HEAD method will be responded with an empty response body (Only headers)                                                             | `true`          |
-| enable_OPTIONS | When true, every request sent using the OPTIONS method will be responded with an empty response containing only the "Allow" header which contains the supported HTTP methods | `true`          |
-| templating     | When true, all pages will automatically be rendered as templates.                                                                                                            | `false`         |
+| property         | description                                                                                                                                                                  | default value   |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| `port`           | The port for the http server to listen                                                                                                                                       | `80`            |
+| `https_port`     | The port for the https server to listen                                                                                                                                      | `443`           |
+| `auto_https`     | When true and https is available, automatically redirects http to https                                                                                                      | `true`          |
+| `enable_HEAD`    | When true, every request sent using the HEAD method will be responded with an empty response body (Only headers)                                                             | `true`          |
+| `enable_OPTIONS` | When true, every request sent using the OPTIONS method will be responded with an empty response containing only the "Allow" header which contains the supported HTTP methods | `true`          |
+| `templating`     | When true, all pages will automatically be rendered as templates.                                                                                                            | `false`         |
+| `host`           | The host to listen on.                                                                                                                                                       | `"127.0.0.1"`   |
 
 To change a property do the following:
 ```

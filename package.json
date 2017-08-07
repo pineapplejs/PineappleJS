@@ -1,6 +1,6 @@
 {
   "name": "pineapplejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easy to use yet complex NodeJS Web application framework.",
   "main": "./lib/Pineapple.js",
   "scripts": {
